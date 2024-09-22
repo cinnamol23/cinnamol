@@ -1,0 +1,37 @@
+page--- H-B-F
+
+wep ขายตะกร้าจักสาน
+	https://basketeer.co.th/product/empty-basket-41/?attribute_pa_size=size-s-small-2&utm_source=Google%20Shopping&utm_campaign=All%20product-3&utm_medium=cpc&utm_term=140159&gad_source=1&gclid=CjwKCAjwhvi0BhA4EiwAX25uj4BiFqvZLd7dx0nfXZ1kqeHahwAxn2S90H4BH80NHO1qAwv5R6WOZRoC1l4QAvD_BwE
+
+ฐานข้อมูล 
+	-แบบมีโครงสร้าง
+	-มาเรียดีบี
+
+การพัฒนาระบบ บทที่ 3
+	เปลี่ยนเป็นระบบเช่า (บ้าน) EX. เช่าบ้นเชียงใหม่ อณาสิริ
+HTML DESIGN : structure
+Database E-R Model
+PHP Connect Database
+1.Insert
+2.Select
+3.update
+4.Delete
+
+..... connact อันเดิม.....
+<?php
+$servername = "localhost";
+$username = "root";
+$password = "";
+
+
+// Create connection
+$conn = new mysqli($servername, $username, $password);
+
+// Check connection
+if ($conn->connect_error) {
+  die("Connection failed: " . $conn->connect_error);
+}
+echo "Connected successfully";
+?>
+........................................
+
